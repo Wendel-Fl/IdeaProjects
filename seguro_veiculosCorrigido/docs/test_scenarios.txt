@@ -1,0 +1,13 @@
+Cenários de teste para o cálculo do desconto no prêmio do seguro.
+feminino -> solteira -> 18 <= idade <= 25 -> 5%
+feminino -> solteira -> 26 <= idade <= 60 -> 15%
+feminino -> casada -> 18 <= idade <= 25 -> 10%
+feminino -> casada -> 26 <= idade <= 60 -> 30%
+masculino -> solteiro -> 18 <= idade <= 25 -> 0%
+masculino -> solteiro -> 26 <= idade <= 60 -> 10
+masculino -> casado -> 18 <= idade <= 25 -> 5%
+masculino -> casado -> 26 <= idade <= 60 -> 20%
+
+Outro cenários de testes dizem respeito aos atributos do cliente:
+Para cada um dos atributos validáveis, existe a implementação de uma classe de validação. E existe uma exceção a ser disparada em caso do valor ser inválido.
+

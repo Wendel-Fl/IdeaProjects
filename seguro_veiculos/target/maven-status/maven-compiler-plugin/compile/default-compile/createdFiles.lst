@@ -1,0 +1,16 @@
+org\excecoes\IdadeInvalidaException.class
+org\util\CpfValidator.class
+org\excecoes\CpfInvalidoException.class
+org\excecoes\DataInvalidaException.class
+org\excecoes\NacionalidadeInvalidaException.class
+org\model\PremioSeguro.class
+org\excecoes\SexoInvalidoException.class
+org\util\EstadoCivilValidator.class
+org\util\NacionalidadeValidator.class
+org\model\Cliente.class
+org\excecoes\PassaporteInvalidoException.class
+org\util\PassaporteValidator.class
+org\excecoes\EstadoCivilInvalidoException.class
+org\util\DataUtils.class
+org\util\SexoValidator.class
+org\model\Teste.class

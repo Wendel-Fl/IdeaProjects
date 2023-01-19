@@ -1,0 +1,16 @@
+Regra referentes a valores inválidos:
+R1 - 0 <= cargaHoraria
+R2 - 0 <= faltas <= cargaHoraria
+R3 - 0 <= nota1 <= 10
+R4 - 0 <= nota2 <= 10
+Se qualquer uma destas for quebrada, deve-se disparar a exception "ValoresInvalidosException".
+Portanto recomenda-se a criação de casos de teste para o teste de quebra de cada uma destas regras;
+
+Regras em que os valores são válidos:
+R5 -> Se quantidade de faltas for superior a 25% da carga horária, o aluno está reprovado por faltas;
+R6 -> Se a média final for menor que 3, o aluno está reprovado por média;
+R7 -> Se a média estiver entre 3 e 6, o aluno terá direito a uma prova extra;
+R8 -> Se a média for maior ou igual a 6, o aluno está aprovado.
+
+Definir casos de teste para cada um destes cenários, de preferência usando valores definidos com a
+utilização do critério funcional "Análise do Valor Limite".
