@@ -4,6 +4,9 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
+import sigaa.entidades.Curso;
+import sigaa.entidades.Departamento;
+import sigaa.entidades.Formacao;
 import sigaa.entidades.Materia;
 import sigaa.sistema.Sistema;
 
@@ -22,12 +25,12 @@ public class Administrador extends Usuario{
 		return new Administrador(sistema, login, senha, email, nome);
 	}
 	
-	public Docente cadastraDocente(Sistema sistema, String login, String senha, String email, String nome) {
-		return new Docente(sistema, login, senha, email, nome);
+	public Docente cadastraDocente(Sistema sistema, String login, String senha, String email, String nome, Formacao formacao, Departamento departamento) {
+		return new Docente(sistema, login, senha, email, nome, formacao, departamento);
 	}
 	
-	public Discente cadastraDiscente(Sistema sistema, String login, String senha, String email, String nome) {
-		return new Discente(sistema, login, senha, email, nome);
+	public Discente cadastraDiscente(Sistema sistema, String login, String senha, String email, String nome, String matricula, Curso curso) {
+		return new Discente(sistema, login, senha, email, nome, matricula, curso);
 	}
 	
 	public void aprovaMatricula(Sistema sistema) {
@@ -58,6 +61,7 @@ public class Administrador extends Usuario{
 					while(i > 0 || !lde.isEmpty()) {
 						discenteHolder = lde.get(lde.size() - 1);
 						m.getAlunos(this).add(discenteHolder);
+						m.getListaDeFrequencia(this).put(discenteHolder, 0);
 						discenteHolder.getMaterias(this).add(m);
 						lde.remove(lde.size() -1);
 						i--;
@@ -74,6 +78,7 @@ public class Administrador extends Usuario{
 					int j = m.getVagas() - m.getAlunos(this).size();
 					while(j > 0 || !lde.isEmpty()) {
 						m.getAlunos(this).add(lde.get(lde.size() - 1));
+						m.getListaDeFrequencia(this).put(lde.get(lde.size() - 1), 0);
 						lde.get(lde.size() - 1).getMaterias(this).add(m);
 						lde.remove(lde.size() - 1);
 						j--;
@@ -81,6 +86,7 @@ public class Administrador extends Usuario{
 				}
 			});
 		}
+		sc.close();
 	}
 	
 	public void associaDocente(Docente docente, Materia materia) {

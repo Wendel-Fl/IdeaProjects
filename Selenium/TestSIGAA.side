@@ -1,0 +1,311 @@
+{
+  "id": "969da3b0-d25b-42f1-9b41-e7e2acc6eb4d",
+  "version": "2.0",
+  "name": "TestSIGAA",
+  "url": "https://sso.ufg.br",
+  "tests": [{
+    "id": "3ebc05a9-28c4-4ba3-8563-793068fd09c5",
+    "name": "Grupo",
+    "commands": [{
+      "id": "d736dbd1-badf-4da1-ae7d-281b37c5ff83",
+      "comment": "",
+      "command": "open",
+      "target": "/cas/login?locale=pt_BR&service=https%3A%2F%2Fsigaa.sistemas.ufg.br%2Fsigaa%2FverTelaLogin.do",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f3379a05-7d11-456a-b98e-f251e0174a99",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1019",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "084eb79d-14e8-4e40-be7a-bcfd3e73e9ee",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='fm1']/section[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "wendel.filho"
+    }, {
+      "id": "32afd3a3-02f0-4fd8-a515-1dac49d22242",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='fm1']/section[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//section[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "*Wf23571113"
+    }, {
+      "id": "c975bed7-7fa5-440a-98d6-a732a18cdda7",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "9155f429-94b7-488d-a866-283ef1d6da1b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rc-anchor-checkbox-holder",
+      "targets": [
+        ["css=.rc-anchor-checkbox-holder", "css:finder"],
+        ["xpath=//div[@id='rc-anchor-container']/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd81458e-8e45-41b5-81e7-28c6c9a6676a",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "1396af54-509e-4eac-99b8-2fbb4c0816aa",
+      "comment": "",
+      "command": "click",
+      "target": "name=submit",
+      "targets": [
+        ["name=submit", "name"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//input[@name='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='fm1']/input[6]", "xpath:idRelative"],
+        ["xpath=//input[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9da6e320-50c5-4440-80cb-665dcdf6dfb0",
+      "comment": "",
+      "command": "open",
+      "target": "https://sigaa.sistemas.ufg.br/sigaa/portais/discente/discente.jsf",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9a2d314-8465-4d13-a05b-2566f4605acb",
+      "comment": "",
+      "command": "click",
+      "target": "id=form_acessarTurmaVirtualj_id_4:turmaVirtual",
+      "targets": [
+        ["id=form_acessarTurmaVirtualj_id_4:turmaVirtual", "id"],
+        ["linkText=TESTE DE SOFTWARE", "linkText"],
+        ["css=#form_acessarTurmaVirtualj_id_4\\3AturmaVirtual", "css:finder"],
+        ["xpath=(//a[contains(text(),'TESTE DE SOFTWARE')])[3]", "xpath:link"],
+        ["xpath=//a[@id='form_acessarTurmaVirtualj_id_4:turmaVirtual']", "xpath:attributes"],
+        ["xpath=//form[@id='form_acessarTurmaVirtualj_id_4']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[28]", "xpath:href"],
+        ["xpath=//tr[9]/td/form/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9386913-9e6d-47f9-b054-dc955db5be8e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.itemMenuHeaderAlunos:nth-child(1)",
+      "targets": [
+        ["css=.itemMenuHeaderAlunos:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='formMenu:j_id_jsp_1448423575_64']/div", "xpath:idRelative"],
+        ["xpath=//form/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "905aa21c-4f98-4580-9aa8-7f69b14e45c7",
+      "comment": "",
+      "command": "click",
+      "target": "css=#formMenu\\3Aj_id_jsp_1448423575_64 a:nth-child(2) > .itemMenu",
+      "targets": [
+        ["css=#formMenu\\3Aj_id_jsp_1448423575_64 a:nth-child(2) > .itemMenu", "css:finder"],
+        ["xpath=//div[@id='formMenu:j_id_jsp_1448423575_64']/div[3]/table/tbody/tr/td/a[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/table/tbody/tr/td/a[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "79361dcb-12c2-437f-994d-4d9a502abe99",
+      "comment": "",
+      "command": "click",
+      "target": "css=.formAva tr:nth-child(2) > td",
+      "targets": [
+        ["css=.formAva tr:nth-child(2) > td", "css:finder"],
+        ["xpath=//span[@id='formAva:grupo']/table/tbody/tr[2]/td", "xpath:idRelative"],
+        ["xpath=//span/table/tbody/tr[2]/td", "xpath:position"],
+        ["xpath=//td[contains(.,'5')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "20bc5d35-c430-430e-9c73-2539c07063c1",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.formAva tr:nth-child(2) > td",
+      "targets": [
+        ["css=.formAva tr:nth-child(2) > td", "css:finder"],
+        ["xpath=//span[@id='formAva:grupo']/table/tbody/tr[2]/td", "xpath:idRelative"],
+        ["xpath=//span/table/tbody/tr[2]/td", "xpath:position"],
+        ["xpath=//td[contains(.,'5')]", "xpath:innerText"]
+      ],
+      "value": "5"
+    }, {
+      "id": "c3e9b05f-9fd7-4e39-aa7d-1d7e3d8b8ca3",
+      "comment": "",
+      "command": "open",
+      "target": "https://sigaa.sistemas.ufg.br/sigaa/portais/discente/discente.jsf",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a7594a3-a8fa-4221-a9ef-57934ed1badf",
+      "comment": "",
+      "command": "click",
+      "target": "id=form_acessarTurmaVirtualj_id_4:turmaVirtual",
+      "targets": [
+        ["id=form_acessarTurmaVirtualj_id_4:turmaVirtual", "id"],
+        ["css=#form_acessarTurmaVirtualj_id_4\\3AturmaVirtual", "css:finder"],
+        ["xpath=(//a[contains(text(),'TESTE DE SOFTWARE')])[3]", "xpath:link"],
+        ["xpath=//a[@id='form_acessarTurmaVirtualj_id_4:turmaVirtual']", "xpath:attributes"],
+        ["xpath=//form[@id='form_acessarTurmaVirtualj_id_4']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[28]", "xpath:href"],
+        ["xpath=//tr[9]/td/form/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "036cf8c2-a45e-464b-bb9b-9992b26993c2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.itemMenuHeaderAtividades:nth-child(1)",
+      "targets": [
+        ["css=.itemMenuHeaderAtividades:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='formMenu:j_id_jsp_1448423575_93']/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1db488e-1ec3-4a9d-aa46-efd8607ec096",
+      "comment": "",
+      "command": "click",
+      "target": "css=#formMenu\\3Aj_id_jsp_1448423575_93 a:nth-child(3) > .itemMenu",
+      "targets": [
+        ["css=#formMenu\\3Aj_id_jsp_1448423575_93 a:nth-child(3) > .itemMenu", "css:finder"],
+        ["xpath=//div[@id='formMenu:j_id_jsp_1448423575_93']/div[3]/table/tbody/tr/td/a[3]/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div[3]/table/tbody/tr/td/a[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e848221f-0e05-4898-a386-06711ff5b6d2",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(1) legend",
+      "targets": [
+        ["css=tr:nth-child(1) legend", "css:finder"],
+        ["xpath=//form[@id='j_id_jsp_801901427_249']/fieldset/table/tbody/tr/td/fieldset/legend", "xpath:idRelative"],
+        ["xpath=//td/fieldset/legend", "xpath:position"],
+        ["xpath=//legend[contains(.,'Tarefas Individuais')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e77cf028-6136-4209-93ab-30358843ffbd",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(1) legend",
+      "targets": [
+        ["css=tr:nth-child(1) legend", "css:finder"],
+        ["xpath=//form[@id='j_id_jsp_801901427_249']/fieldset/table/tbody/tr/td/fieldset/legend", "xpath:idRelative"],
+        ["xpath=//td/fieldset/legend", "xpath:position"],
+        ["xpath=//legend[contains(.,'Tarefas Individuais')]", "xpath:innerText"]
+      ],
+      "value": "Tarefas Individuais"
+    }, {
+      "id": "a0cd4336-c8d0-42a7-9479-6c4830163b31",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) legend",
+      "targets": [
+        ["css=tr:nth-child(2) legend", "css:finder"],
+        ["xpath=//form[@id='j_id_jsp_801901427_249']/fieldset/table/tbody/tr[2]/td/fieldset/legend", "xpath:idRelative"],
+        ["xpath=//tr[2]/td/fieldset/legend", "xpath:position"],
+        ["xpath=//legend[contains(.,'Tarefas Em Grupo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d8721e7-e5fc-4bc3-b385-5d2fcb969b22",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(2) legend",
+      "targets": [
+        ["css=tr:nth-child(2) legend", "css:finder"],
+        ["xpath=//form[@id='j_id_jsp_801901427_249']/fieldset/table/tbody/tr[2]/td/fieldset/legend", "xpath:idRelative"],
+        ["xpath=//tr[2]/td/fieldset/legend", "xpath:position"],
+        ["xpath=//legend[contains(.,'Tarefas Em Grupo')]", "xpath:innerText"]
+      ],
+      "value": "Tarefas Em Grupo"
+    }, {
+      "id": "216d576e-3727-492e-a8f4-3167189f9bd2",
+      "comment": "",
+      "command": "open",
+      "target": "https://sigaa.sistemas.ufg.br/sigaa/portais/discente/discente.jsf",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1122ab60-ae2f-4c1e-b998-6629ca71ffe1",
+      "comment": "",
+      "command": "click",
+      "target": "id=form_acessarTurmaVirtualj_id_4:turmaVirtual",
+      "targets": [
+        ["id=form_acessarTurmaVirtualj_id_4:turmaVirtual", "id"],
+        ["linkText=TESTE DE SOFTWARE", "linkText"],
+        ["css=#form_acessarTurmaVirtualj_id_4\\3AturmaVirtual", "css:finder"],
+        ["xpath=(//a[contains(text(),'TESTE DE SOFTWARE')])[3]", "xpath:link"],
+        ["xpath=//a[@id='form_acessarTurmaVirtualj_id_4:turmaVirtual']", "xpath:attributes"],
+        ["xpath=//form[@id='form_acessarTurmaVirtualj_id_4']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[28]", "xpath:href"],
+        ["xpath=//tr[9]/td/form/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91598bae-d0f6-492d-a0fe-4ad90917c4b8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.itemMenuHeaderTurma:nth-child(1)",
+      "targets": [
+        ["css=.itemMenuHeaderTurma:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='formMenu:j_id_jsp_1448423575_45']/div", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b434879-34f2-4fd4-997b-232aaf823141",
+      "comment": "",
+      "command": "click",
+      "target": "css=#formMenu\\3Aj_id_jsp_1448423575_45 a:nth-child(4) > .itemMenu",
+      "targets": [
+        ["css=#formMenu\\3Aj_id_jsp_1448423575_45 a:nth-child(4) > .itemMenu", "css:finder"],
+        ["xpath=//div[@id='formMenu:j_id_jsp_1448423575_45']/div[3]/table/tbody/tr/td/a[4]/div", "xpath:idRelative"],
+        ["xpath=//a[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "64cac6e5-1c40-4ff8-8ab5-841bd78c1f2e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3ebc05a9-28c4-4ba3-8563-793068fd09c5"]
+  }],
+  "urls": ["https://sso.ufg.br/"],
+  "plugins": []
+}

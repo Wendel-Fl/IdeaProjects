@@ -1,6 +1,7 @@
 package sigaa.usuario;
 
 import lombok.AllArgsConstructor;
+import sigaa.sistema.Sistema;
 
 @AllArgsConstructor
 public abstract class Usuario {
@@ -9,8 +10,8 @@ public abstract class Usuario {
 	private String email;
 	private String nome;
 	
-	public boolean logar(String senha) {
-		return senha.equals(this.senha);
+	public boolean logar(String senha, Sistema sistema) {
+		return senha.equals(this.senha) && sistema.getUsuarios(this).contains(this);
 	}
 	
 	public String getLogin() {
@@ -21,7 +22,7 @@ public abstract class Usuario {
 		return this.email;
 	}
 	
-	private String getNome() {
+	public String getNome() {
 		return this.nome;
 	}
 	

@@ -11,8 +11,6 @@ import sigaa.usuario.Usuario;
 public class Sistema {
 	private static Sistema instance;
 	private List<Usuario> usuarios = new ArrayList<>();
-	private String periodo;
-	private boolean periodoDeMatricula;
 	private List<Materia> materias = new ArrayList<>();
 	
 	private Sistema() {
@@ -34,5 +32,11 @@ public class Sistema {
 		if(usuario instanceof Administrador)
 			return this.materias;
 		return Collections.unmodifiableList(this.materias);
+	}
+	
+	public List<Usuario> getUsuarios(Usuario usuario){
+		if(usuario instanceof Administrador)
+			return this.usuarios;
+		return Collections.unmodifiableList(usuarios);
 	}
 }
