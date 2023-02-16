@@ -296,6 +296,222 @@
         ["xpath=//a[4]/div", "xpath:position"]
       ],
       "value": ""
+    }, {
+      "id": "dc2e1ebb-8c30-4989-bdfd-9784e2785835",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//legend[contains(.,'Alunos (35)')]",
+      "targets": [
+        ["xpath=//legend[contains(.,'Alunos (35)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc50599f-e52f-4ab7-89fd-f0a14fbc286d",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//legend[contains(.,'Alunos (35)')]",
+      "targets": [
+        ["xpath=//legend[contains(.,'Alunos (35)')]", "xpath:innerText"]
+      ],
+      "value": "Alunos (35)"
+    }, {
+      "id": "e7b31bbf-2a80-44df-8365-9abf6a576e31",
+      "comment": "",
+      "command": "open",
+      "target": "https://sigaa.sistemas.ufg.br/sigaa/portais/discente/discente.jsf",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "16313219-b550-47df-8715-7f1e07a72bd9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ThemeOfficeMainItemHover > .ThemeOfficeMainFolderText",
+      "targets": [
+        ["css=.ThemeOfficeMainItemHover > .ThemeOfficeMainFolderText", "css:finder"],
+        ["xpath=//div[@id='menu_form_menu_discente_j_id_jsp_741219748_97_menu']/table/tbody/tr/td/span[2]", "xpath:idRelative"],
+        ["xpath=//td/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Ensino')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4bf9b9f-97d9-49cb-b958-c3ea6d82999c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#cmSubMenuID1 .ThemeOfficeMenuItem:nth-child(2) > .ThemeOfficeMenuItemText",
+      "targets": [
+        ["css=#cmSubMenuID1 .ThemeOfficeMenuItem:nth-child(2) > .ThemeOfficeMenuItemText", "css:finder"],
+        ["xpath=//div[@id='cmSubMenuID1']/table/tbody/tr[2]/td[2]", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9773136e-a937-41e8-bc34-f3dc473714a5",
+      "comment": "",
+      "command": "open",
+      "target": "https://sigaa.sistemas.ufg.br/sigaa/portais/discente/discente.jsf",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "45e0cd6c-4208-4405-9736-9fbc5cb02b6c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ThemeOfficeMainItemHover > .ThemeOfficeMainFolderText",
+      "targets": [
+        ["css=.ThemeOfficeMainItemHover > .ThemeOfficeMainFolderText", "css:finder"],
+        ["xpath=//div[@id='menu_form_menu_discente_j_id_jsp_741219748_97_menu']/table/tbody/tr/td/span[2]", "xpath:idRelative"],
+        ["xpath=//td/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Ensino')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "72ccd6a9-00e6-4f23-bcb3-42378a3989ca",
+      "comment": "",
+      "command": "click",
+      "target": "css=#cmSubMenuID1 .ThemeOfficeMenuItem:nth-child(3) > .ThemeOfficeMenuItemText",
+      "targets": [
+        ["css=#cmSubMenuID1 .ThemeOfficeMenuItem:nth-child(3) > .ThemeOfficeMenuItemText", "css:finder"],
+        ["xpath=//div[@id='cmSubMenuID1']/table/tbody/tr[3]/td[2]", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa8cdfc8-21de-41d9-a1e7-2da08788e160",
+      "comment": "",
+      "command": "click",
+      "target": "css=h3",
+      "targets": [
+        ["css=h3", "css:finder"],
+        ["xpath=//div[@id='relatorio']/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Comprovante de Matrícula')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "942e823a-25d1-4910-a249-ddeb82228493",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h3",
+      "targets": [
+        ["css=h3", "css:finder"],
+        ["xpath=//div[@id='relatorio']/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Comprovante de Matrícula')]", "xpath:innerText"]
+      ],
+      "value": "Comprovante de Matrícula"
+    }, {
+      "id": "edc3e835-dd75-4a20-8c26-854c9e3ed7a8",
+      "comment": "",
+      "command": "open",
+      "target": "https://sigaa.sistemas.ufg.br/sigaa/portais/discente/discente.jsf",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5aa4ca61-f3e2-409e-8715-6d180bbfddcb",
+      "comment": "",
+      "command": "click",
+      "target": "css=#cmSubMenuID1 .ThemeOfficeMenuItem:nth-child(4) > .ThemeOfficeMenuItemText",
+      "targets": [
+        ["css=#cmSubMenuID1 .ThemeOfficeMenuItem:nth-child(4) > .ThemeOfficeMenuItemText", "css:finder"],
+        ["xpath=//div[@id='cmSubMenuID1']/table/tbody/tr[4]/td[2]", "xpath:idRelative"],
+        ["xpath=//tr[4]/td[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c7b424a-2194-4718-b8bb-507effb28a97",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabelaRelatorioUFGNoBottomBorder:nth-child(6) > caption",
+      "targets": [
+        ["css=.tabelaRelatorioUFGNoBottomBorder:nth-child(6) > caption", "css:finder"],
+        ["xpath=//div[@id='relatorio']/table/caption", "xpath:idRelative"],
+        ["xpath=//caption", "xpath:position"],
+        ["xpath=//caption[contains(.,'DADOS PESSOAIS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "36e3ac68-e733-4191-bf78-ad9b0f48d043",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.tabelaRelatorioUFGNoBottomBorder:nth-child(6) > caption",
+      "targets": [
+        ["css=.tabelaRelatorioUFGNoBottomBorder:nth-child(6) > caption", "css:finder"],
+        ["xpath=//div[@id='relatorio']/table/caption", "xpath:idRelative"],
+        ["xpath=//caption", "xpath:position"],
+        ["xpath=//caption[contains(.,'DADOS PESSOAIS')]", "xpath:innerText"]
+      ],
+      "value": "DADOS PESSOAIS"
+    }, {
+      "id": "b881912f-3e10-41a3-8ccf-418579639a0d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabelaRelatorioUFGNoBottomBorder:nth-child(7) > caption",
+      "targets": [
+        ["css=.tabelaRelatorioUFGNoBottomBorder:nth-child(7) > caption", "css:finder"],
+        ["xpath=//div[@id='relatorio']/table[2]/caption", "xpath:idRelative"],
+        ["xpath=//table[2]/caption", "xpath:position"],
+        ["xpath=//caption[contains(.,'DADOS DO CURSO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "195975ec-8421-46a3-91b6-03101b9daf36",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.tabelaRelatorioUFGNoBottomBorder:nth-child(7) > caption",
+      "targets": [
+        ["css=.tabelaRelatorioUFGNoBottomBorder:nth-child(7) > caption", "css:finder"],
+        ["xpath=//div[@id='relatorio']/table[2]/caption", "xpath:idRelative"],
+        ["xpath=//table[2]/caption", "xpath:position"],
+        ["xpath=//caption[contains(.,'DADOS DO CURSO')]", "xpath:innerText"]
+      ],
+      "value": "DADOS DO CURSO"
+    }, {
+      "id": "be196246-2032-4b0e-a59b-70c29106b086",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabelaRelatorioUFG:nth-child(10) > caption",
+      "targets": [
+        ["css=.tabelaRelatorioUFG:nth-child(10) > caption", "css:finder"],
+        ["xpath=//div[@id='relatorio']/table[4]/caption", "xpath:idRelative"],
+        ["xpath=//table[4]/caption", "xpath:position"],
+        ["xpath=//caption[contains(.,'COMPONENTES CURRICULARES CURSADOS/CURSANDO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4d0b7cf-0f58-4401-8b81-1cfe9507831e",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.tabelaRelatorioUFG:nth-child(10) > caption",
+      "targets": [
+        ["css=.tabelaRelatorioUFG:nth-child(10) > caption", "css:finder"],
+        ["xpath=//div[@id='relatorio']/table[4]/caption", "xpath:idRelative"],
+        ["xpath=//table[4]/caption", "xpath:position"],
+        ["xpath=//caption[contains(.,'COMPONENTES CURRICULARES CURSADOS/CURSANDO')]", "xpath:innerText"]
+      ],
+      "value": "COMPONENTES CURRICULARES CURSADOS/CURSANDO"
+    }, {
+      "id": "40cab9da-6758-45ab-be80-a8932bbbc984",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabelaRelatorioUFG:nth-child(12) > caption",
+      "targets": [
+        ["css=.tabelaRelatorioUFG:nth-child(12) > caption", "css:finder"],
+        ["xpath=//div[@id='relatorio']/table[5]/caption", "xpath:idRelative"],
+        ["xpath=//table[5]/caption", "xpath:position"],
+        ["xpath=//caption[contains(.,'TOTAIS DE CARGA HORÁRIA')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bbfc7d3f-e5e7-4326-bd1e-89b0e4e10a74",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.tabelaRelatorioUFG:nth-child(12) > caption",
+      "targets": [
+        ["css=.tabelaRelatorioUFG:nth-child(12) > caption", "css:finder"],
+        ["xpath=//div[@id='relatorio']/table[5]/caption", "xpath:idRelative"],
+        ["xpath=//table[5]/caption", "xpath:position"],
+        ["xpath=//caption[contains(.,'TOTAIS DE CARGA HORÁRIA')]", "xpath:innerText"]
+      ],
+      "value": "TOTAIS DE CARGA HORÁRIA"
     }]
   }],
   "suites": [{

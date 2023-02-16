@@ -79,5 +79,26 @@ public class GrupoTest {
     driver.findElement(By.id("form_acessarTurmaVirtualj_id_4:turmaVirtual")).click();
     driver.findElement(By.cssSelector(".itemMenuHeaderTurma:nth-child(1)")).click();
     driver.findElement(By.cssSelector("#formMenu\\3Aj_id_jsp_1448423575_45 a:nth-child(4) > .itemMenu")).click();
+    driver.findElement(By.xpath("//legend[contains(.,\'Alunos (35)\')]")).click();
+    assertThat(driver.findElement(By.xpath("//legend[contains(.,\'Alunos (35)\')]")).getText(), is("Alunos (35)"));
+  }
+
+  // Teste para verificar notas em outros períodos
+  @Test
+  public void notas() {
+    driver.get("https://sigaa.sistemas.ufg.br/sigaa/portais/discente/discente.jsf");
+    driver.findElement(By.cssSelector(".ThemeOfficeMainItemHover > .ThemeOfficeMainFolderText")).click();
+    driver.findElement(By.cssSelector("#cmSubMenuID1 .ThemeOfficeMenuItem:nth-child(2) > .ThemeOfficeMenuItemText")).click();
+  }
+
+  // Teste para verificar o comprovante de matrícula
+  @Test
+  public void comprovanteMatricula() {
+    driver.get("https://sigaa.sistemas.ufg.br/sigaa/portais/discente/discente.jsf");
+    driver.findElement(By.cssSelector(".ThemeOfficeMainItemHover > .ThemeOfficeMainFolderText")).click();
+    driver.findElement(By.cssSelector("#cmSubMenuID1 .ThemeOfficeMenuItem:nth-child(3) > .ThemeOfficeMenuItemText")).click();
+    driver.findElement(By.cssSelector("h3")).click();
+    assertThat(driver.findElement(By.cssSelector("h3")).getText(), is("Comprovante de Matrícula"));
+
   }
 }
